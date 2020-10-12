@@ -39,7 +39,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+5 midterms this week meant I had 0 time to do this so this is the best I could get done.
+Also my walkthrough will not get pushed to the Github repository so it is not here yet
 
 ## Open-source libraries used
 
