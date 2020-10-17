@@ -33,14 +33,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-5 midterms this week meant I had 0 time to do this so this is the best I could get done.
-Also my walkthrough will not get pushed to the Github repository so it is not here yet
+5 midterms this week severly limited the amount of time I could dedicate to this project.
+My logcat is still spammed with "gnssSvStatusCb: a: input svInfo.flags is 8" errors.
+I am not sure if the output is supposed to be my tweets rather than my timeline but I don't think I changed that and don't know how to fix it.
 
 ## Open-source libraries used
 
@@ -63,11 +64,11 @@ Also my walkthrough will not get pushed to the Github repository so it is not he
     See the License for the specific language governing permissions and
     limitations under the License.
     
-# Project 2 - *Name of App Here*
+# Project 2 - *TwitterClient*
 
 **Twitter Client** is an android app that allows a user to view his Twitter timeline and post a new tweet. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
-Time spent: **6** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -87,7 +88,7 @@ The following **optional** features are implemented:
 - [ ] User can **select "reply" from detail view to respond to a tweet**
 - [ ] The "Compose" action is moved to a FloatingActionButton instead of on the AppBar
 - [ ] Compose tweet functionality is build using modal overlay
-- [ ] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
+- [X] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.org/android/Using-Parceler).
 - [ ] User can **open the twitter app offline and see last loaded tweets**. Persisted in SQLite tweets are refreshed on every application launch. While "live data" is displayed when app can get it from Twitter API, it is also saved for use in offline mode.
 - [ ] When a user leaves the compose view without publishing and there is existing text, prompt to save or delete the draft. If saved, the draft should then be **persisted to disk** and can later be resumed from the compose view.
 - [ ] Enable your app to receive implicit intents from other apps. When a link is shared from a web browser, it should pre-fill the text and title of the web page when composing a tweet. 
@@ -100,7 +101,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthroughPart2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
